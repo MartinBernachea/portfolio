@@ -14,12 +14,12 @@ export default function Header() {
         <>
             <nav id='desktop-nav'>
                 <div className='logo'>
-                    {"{martin}"}
+                    {"{ martin }"}
                 </div>
                 <ul className='nav-links'>
-                    <li><a>About Me</a></li>
-                    <li><a>My Projects</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href='#AboutMe'>About Me</a></li>
+                    <li><a href='#Projects'>My Projects</a></li>
+                    <li><a href='#Contact'>Contact</a></li>
                 </ul>
             </nav>
             <nav id='hamburger-nav'>

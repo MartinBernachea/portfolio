@@ -1,6 +1,6 @@
 import './globals.css'
-import './styles/mediaqueries.css'
 import './styles/stars.css'
+import './styles/mediaqueries.css'
 
 import { Inter } from 'next/font/google'
 

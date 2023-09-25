@@ -48,6 +48,7 @@ nav {
 }
 
 .logo {
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
@@ -182,7 +183,6 @@ section {
 .section--text {
   align-self: center;
   text-align: center;
-  margin-top: 20px;
 }
 
 .section--text p {

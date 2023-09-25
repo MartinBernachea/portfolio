@@ -74,6 +74,10 @@
         height: 300px;
     }
 
+    .section--text {
+    margin-top: 20px;
+    }
+
     article {
         font-size: 1rem;
     }
@@ -103,7 +107,7 @@
     }
 
     .logo {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .nav-links {
