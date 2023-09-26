@@ -1,8 +1,12 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
+import {
+    IconBrandGithub,
+    IconBrandLinkedin
+} from '@tabler/icons-react'
 
-export default function AboutMe() {
+export default function Hero() {
 
     function openResume() {
         window.open('/assets/resume-example.pdf')
@@ -38,17 +42,15 @@ export default function AboutMe() {
                     </button>
                 </div>
                 <div className='section--socials'>
-                <Image
-                    className='section--socials-icon'
-                    src="/assets/icons/github.png"  
+                <IconBrandGithub
+                    className='section--socials-icon' 
                     alt="profile-pic"
                     width={35}
                     height={35}
                     // onClick={relocate}
                 />
-                <Image
-                    className='section--socials-icon'
-                    src="/assets/icons/linkedin.png"     
+                <IconBrandLinkedin
+                    className='section--socials-icon'   
                     alt="profile-pic"
                     width={35}
                     height={35}

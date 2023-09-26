@@ -2,9 +2,12 @@ import './globals.css'
 import './styles/stars.css'
 import './styles/mediaqueries.css'
 
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export default function RootLayout({ children }) {
   return (
@@ -37,7 +40,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <title>Martin Bernachea 👨🏼‍💻</title>
       </head>
-      <body className={inter.className}>
+      <body className={roboto.className}>
         {children}
         <div className="bg-animation">
           <div id="stars"></div>

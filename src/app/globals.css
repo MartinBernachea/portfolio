@@ -7,6 +7,13 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+.divider {
+  margin-bottom: 1rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -22,17 +29,12 @@ body {
 }
 
 body {
-  background: #333;
+  background: #222;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-a,
-.btn {
-  transition: all 300ms ease;
 }
 
 /* HEADER  */
@@ -51,6 +53,10 @@ nav {
   font-weight: bold;
   font-size: 1.5rem;
 }
+.logo:hover {
+  transform: scale(1.3);
+  transition: all 200ms ease-in-out;
+}
 
 .nav-links {
   list-style: none;
@@ -65,8 +71,11 @@ a:hover {
   text-underline-offset: .8rem;
 }
 
-.logo:hover {
+.logo a:hover {
   cursor: default;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* HAMBURGER MENU */
@@ -150,7 +159,6 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -166,7 +174,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 93vh;
 }
 
 .section--img-container {
@@ -191,11 +199,13 @@ section {
 
 .section--text-p1 {
   text-align: center;
+  color: #bfbfbf;
 }
 
 .section--text-p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: #bfbfbf;
 }
 
 .title {
@@ -248,5 +258,77 @@ section {
   cursor: pointer;
   transform: scale(1.1);
   background: rgb(53, 53, 53);
+  color: #fff;
+}
+
+/* ABOUT SECTION */
+
+
+.section--about-container {
+  margin: 25px auto;
+  text-align: center;
+  font-size: 1.25rem;
+  background: rgba(34, 34, 34, .8);
+  border-radius: 15px;
+}
+.section--about-container a {
+  margin-bottom: 1rem;
+}
+/* SKILLS */
+
+.skills--icon {
+  width: 9rem;
+  height: 9rem;
+}
+
+.section--skills {
+  margin-bottom: 2.5rem;
+}
+
+.section--skills-title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.skills-subtitle {
+  font-size: 0.875rem;
+}
+
+.skills-card-container {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.skills--card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+.skills--card-icon {
+  height: 12rem;
+}
+
+.skills--card-label {
+  font-size: 1.125rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills--card-text {
+  background-color: #808080;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
   color: #fff;
 }

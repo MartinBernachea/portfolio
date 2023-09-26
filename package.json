@@ -1,5 +1,5 @@
 {
-  "name": "martin1",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^2.35.0",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
+    "heroicons": "^2.0.18",
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"

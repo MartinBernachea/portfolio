@@ -14,7 +14,7 @@ export default function Header() {
         <>
             <nav id='desktop-nav'>
                 <div className='logo'>
-                    {"{ martin }"}
+                    <a href='/'>{"{ martin }"}</a>
                 </div>
                 <ul className='nav-links'>
                     <li><a href='#AboutMe'>About Me</a></li>
