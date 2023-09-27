@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+
 import Image from 'next/image'
 import {
     IconBrandGithub,
@@ -21,6 +21,7 @@ export default function Hero() {
                     alt="profile-pic"
                     width={400}
                     height={400}
+                    priority={true}
                 />
             </div>
             <div className='section--text'>
@@ -47,14 +48,14 @@ export default function Hero() {
                     alt="profile-pic"
                     width={35}
                     height={35}
-                    // onClick={relocate}
+                    // href='https://github.com/MartinBernachea'
                 />
                 <IconBrandLinkedin
                     className='section--socials-icon'   
                     alt="profile-pic"
                     width={35}
                     height={35}
-                    // onClick={location.href('https://www.linkedin.com/in/martin-bernachea/')}
+                    // href='https://www.linkedin.com/in/martin-bernachea/'
                 />
                 </div>
             </div>

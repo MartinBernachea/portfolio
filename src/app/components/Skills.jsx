@@ -3,7 +3,7 @@ import {
     IconCode,
     IconDatabase,
     IconTool,
-} from "@tabler/icons-react";
+} from '@tabler/icons-react';
 
 const skills = [
     {
@@ -39,10 +39,6 @@ const skills = [
             },
             {
                 id: 5,
-                skill: "TypeScript",
-            },
-            {
-                id: 6,
                 skill: "NextJS",
             },
         ],
@@ -64,23 +60,15 @@ const skills = [
         skills: [
             {
                 id: 1,
-                skill: "Java",
-            },
-            {
-                id: 2,
                 skill: "NodeJS",
             },
             {
-                id: 3,
+                id: 2,
                 skill: "Express",
             },
             {
-                id: 5,
+                id: 3,
                 skill: "MySQL",
-            },
-            {
-                id: 6,
-                skill: "MongoDB",
             },
         ],
     },
@@ -134,18 +122,10 @@ const skills = [
             },
             {
                 id: 2,
-                skill: "GitLab",
-            },
-            {
-                id: 3,
-                skill: "Postman",
-            },
-            {
-                id: 4,
                 skill: "Scrum",
             },
             {
-                id: 5,
+                id: 3,
                 skill: "Kanban",
             },
         ],
@@ -156,10 +136,8 @@ export default function Skills() {
     return (
         <section className="section--skills">
             <div className="section--skills-title-container">
+                <p className="section--text-p1">Mis conocimientos</p>
                 <h1 className="title">Skills</h1>
-                <p className="section--text-p1">
-                    Mis conocimientos
-                </p>
             </div>
             <div className="skills-card-container">
                 {skills.map((skill) => (

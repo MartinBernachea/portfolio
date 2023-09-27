@@ -1,7 +1,7 @@
 'use client'
-import { useState } from 'react'
+
 import Skills from './Skills'
-import { IconHeartCode } from '@tabler/icons-react'
+import { IconHeartCode, IconClick } from '@tabler/icons-react'
 
 export default function AboutMe() {
 
@@ -17,7 +17,7 @@ export default function AboutMe() {
                 Me encanta crear sitios web que brinden una
                 experiencia de usuario única y satisfactoria. Puedes ver algunos de
                 mis proyectos en la sección de{" "}
-                <a className="font-bold" href="#">proyectos.</a>
+                <a className="font-bold" href="#">proyectos.</a> <IconClick />
 
                 <div className='divider'/>
 
@@ -28,7 +28,7 @@ export default function AboutMe() {
                 <div className='divider'/>
 
                 Si tiene alguna pregunta o algun comentario no dude en{" "}
-                <a className="font-bold" href="#"> contactarme.</a>
+                <a className="font-bold" href="#"> contactarme.</a> <IconClick />
             </div>
                 <Skills/>
         </section>

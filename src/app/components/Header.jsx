@@ -1,5 +1,4 @@
 'use client'
-import { useState } from 'react'
 
 export default function Header() {
 
@@ -18,7 +17,7 @@ export default function Header() {
                 </div>
                 <ul className='nav-links'>
                     <li><a href='#AboutMe'>About Me</a></li>
-                    <li><a href='#Projects'>My Projects</a></li>
+                    <li><a href='#MyProjects'>My Projects</a></li>
                     <li><a href='#Contact'>Contact</a></li>
                 </ul>
             </nav>
