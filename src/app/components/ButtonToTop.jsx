@@ -26,9 +26,9 @@ export default function ButtonToTop() {
                 document.documentElement.scrollTop = 0;
             }}
             ref={buttonScrollTop}
-            className="button-to-top hidden"
+            className="hidden button-to-top"
         >
-            <IconChevronUp color='black' />
+            <IconChevronUp color='#fff' />
         </button>
     );
 };

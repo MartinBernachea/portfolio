@@ -1,9 +1,12 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import {
     IconBrandGithub,
-    IconBrandLinkedin
+    IconBrandLinkedin,
+    IconSend,
+    IconArrowBarToDown
 } from '@tabler/icons-react'
 
 export default function Hero() {
@@ -35,28 +38,29 @@ export default function Hero() {
                     >
                         Download CV
                     </button>
-                    <button 
-                        className='btn btn--color-2'
-                        // onClick={ ??? }
-                    >
-                        Contact Me
-                    </button>
+                    <Link href={'#Contact'}>
+                        <button className='btn btn--color-2'>
+                            Contact Me
+                        </button>
+                    </Link>
                 </div>
                 <div className='section--socials'>
-                <IconBrandGithub
-                    className='section--socials-icon' 
-                    alt="profile-pic"
-                    width={35}
-                    height={35}
-                    // href='https://github.com/MartinBernachea'
-                />
-                <IconBrandLinkedin
-                    className='section--socials-icon'   
-                    alt="profile-pic"
-                    width={35}
-                    height={35}
-                    // href='https://www.linkedin.com/in/martin-bernachea/'
-                />
+                <Link href='https://github.com/MartinBernachea' target='_blank'>
+                    <IconBrandGithub
+                        className='section--socials-icon' 
+                        alt="profile-pic"
+                        width={35}
+                        height={35}
+                    /> 
+                </Link>
+                <Link href='https://www.linkedin.com/in/martin-bernachea/' target='_blank'>
+                    <IconBrandLinkedin
+                        className='section--socials-icon'   
+                        alt="profile-pic"
+                        width={35}
+                        height={35}
+                    />
+                </Link>
                 </div>
             </div>
         </section>

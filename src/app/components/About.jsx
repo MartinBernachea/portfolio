@@ -17,7 +17,7 @@ export default function AboutMe() {
                 Me encanta crear sitios web que brinden una
                 experiencia de usuario única y satisfactoria. Puedes ver algunos de
                 mis proyectos en la sección de{" "}
-                <a className="font-bold" href="#">proyectos.</a> <IconClick />
+                <a className="font-bold" href="#MyProjects">proyectos.</a> <IconClick />
 
                 <div className='divider'/>
 
@@ -28,7 +28,7 @@ export default function AboutMe() {
                 <div className='divider'/>
 
                 Si tiene alguna pregunta o algun comentario no dude en{" "}
-                <a className="font-bold" href="#"> contactarme.</a> <IconClick />
+                <a className="font-bold" href="#Contact"> contactarme.</a> <IconClick />
             </div>
                 <Skills/>
         </section>

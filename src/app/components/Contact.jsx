@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="contact--info-container">
                 <div className="contact--info">
                     <IconMailFilled 
-                        className='contac--icon'
+                        className='contact--icon'
                         width={32}
                         height={32}
                     />

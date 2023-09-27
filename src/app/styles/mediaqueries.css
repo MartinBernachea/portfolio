@@ -66,6 +66,7 @@
 
     #profile {
         height: 83vh;
+        margin-top: 7rem;
         margin-bottom: 0;
     }
 
@@ -77,14 +78,31 @@
     .section--text {
     margin-top: 20px;
     }
+    
+    .skills-card-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 
-    article {
-        font-size: 1rem;
+    .contact--info-container {
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 3rem;
+        border: none;
+        font-size: .9rem;
     }
 
     footer nav {
         height: fit-content;
         margin-bottom: 2rem;
+    }
+
+    .nav--links-container {
+        text-align: center;
+    }
+    .footer--nav-links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .about-containers,
