@@ -15,7 +15,10 @@ export default function Projects() {
                     </ul>
                 </div>
             </nav>
-            <p> Hecho con <IconHeartCode width={18} height={18}/> por Martin Bernachea </p>
+            <div className='footer--div'>
+                <h2>Gracias por visitar mi sitio web!</h2>
+                <p>Hecho con <IconHeartCode width={18} height={18}/> por Martin Bernachea</p>
+            </div>
         </footer>
     )
 }

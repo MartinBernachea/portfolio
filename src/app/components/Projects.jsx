@@ -1,30 +1,34 @@
 'use client'
 import Image from "next/image"
 import Link from 'next/link'
+import { IconBrandGithub, IconWorld } from '@tabler/icons-react'
 
 export default function Projects() {
 
-    const projectsData = [
+    const projectsInfo = [
         {
             id: 1,
-            alt: '',
-            title: '',
-            githubLink: '',
-            liveDemoLink: ''
+            proyecto_title: "Project Title",
+            proyecto_description:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
+            proyecto_url_github: "https://github.com",
+            proyecto_url_web: "https://google.com",
         },
         {
             id: 2,
-            alt: '',
-            title: '',
-            githubLink: '',
-            liveDemo: ''
+            proyecto_title: "Project Title",
+            proyecto_description:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
+            proyecto_url_github: "https://github.com",
+            proyecto_url_web: "https://google.com",
         },
         {
             id: 3,
-            alt: '',
-            title: '',
-            githubLink: '',
-            liveDemo: ''
+            proyecto_title: "Project Title",
+            proyecto_description:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
+            proyecto_url_github: "https://github.com",
+            proyecto_url_web: "https://google.com",
         },
     ]
 
@@ -33,38 +37,47 @@ export default function Projects() {
             <p className="section--text-p1">Browse My Recent</p>
             <h1 className="title">Projects</h1>
             <div className="projects--container">
-                {/* {projectsData.map((card) => {
-                    return {
-                        
-                    }
-                })} */}
-                {/* <div 
-                    key={projectsData.id}
-                    className="projects--card-container"
-                >
-                    <Image 
-                        src={`/assets/project/project-${projectsData.id}.png`}
-                        width={200}
-                        height={200}
-                        alt={projectsData.alt}
-                        priority
-                    />
-                    <h1>{projectsData.title}</h1>
-                    <div className="projects-card-btn-container">
-                        <Link 
-                            href={projectsData.githubLink} 
-                            target="_blank"
-                        >
-                            <button>Github</button>
-                        </Link>
-                        <Link 
-                            href={projectsData.liveDemoLink} 
-                            target="_blank"
-                        >
-                            <button>Live Demo</button>
-                        </Link>
+                {projectsInfo.map((project) => (
+                    <div
+                        key={project.id}
+                        className='projects--card'
+                    >
+                        <Image
+                            src={`/assets/project/project-${project.id}.png`}
+                            alt={project.proyecto_title}
+                            className="card-image"
+                            priority
+                            width={1000}
+                            height={1000}
+                        />
+                        <div className="project--info-container">
+                            <h1 className="project--info-title">
+                                {project.proyecto_title}
+                            </h1>
+                            <p className="project--info-p">
+                                {project.proyecto_description}
+                            </p>
+                            <div className="button--container">
+                                <a
+                                    href={project.proyecto_url_github}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label="github"
+                                >
+                                    <IconBrandGithub className="project--icons" />
+                                </a>
+                                <a
+                                    href={project.proyecto_url_web}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label="web"
+                                >
+                                    <IconWorld className="project--icons" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div> */}
+                ))}
             </div>
         </section>
     )

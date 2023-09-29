@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
+        height: 93vh;
         margin-bottom: 6rem;
     }
 
@@ -23,13 +23,16 @@
         display: flex;
     }
 
+    .section--img-container {
+        margin-bottom: 1rem;
+    }
+
     #experience,
     .experience-details-container {
         margin-top: 2rem;
     }
 
-    #profile,
-    .section-container {
+    #profile {
         display: block;
     }
 
@@ -37,8 +40,7 @@
         display: none;
     }
 
-    section,
-    .section-container {
+    section {
         height: fit-content;
     }
 
@@ -54,6 +56,60 @@
 
     .about-containers {
         margin-top: 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .projects--card {
+        flex-direction: row-reverse;
+        border: none;
+        box-shadow: none;
+        position: relative;
+        height: 24rem;
+    }
+    .card-image {
+        width: 60%;
+        height: 24rem;
+        object-fit: cover;
+        position: absolute;
+        right: 0;
+        border-top-right-radius: 0.75rem;
+    }
+    .project--info-container {
+        position: absolute; 
+        left: 0; 
+        width: 100%; 
+        align-items: flex-start; 
+    }
+    .project--info-title {
+        width: 40%; 
+        font-size: 2.25rem; 
+        text-align: left; 
+    }
+    .project--info-p {
+        background-color: rgba(128, 128, 128, .7);
+        border-radius: 0.75rem; 
+        font-size: 1.125rem;
+        width: 50%;
+        margin-top: 0.75rem;
+        font-weight: bold; 
+        color: #fff; 
+        box-shadow: 0 2px 4px 0 #141719; 
+    }
+    .button--container {
+        justify-content: flex-end;
+        width: 40%; 
+        margin-top: 0.75rem; 
+        padding-right: 1.25rem; 
+    }
+
+    .card-image {
+        min-width: 300px;
+        max-width: 100%;
+        height: auto;
+        max-height: 24rem;
+        aspect-ratio: 1/1;
     }
 }
 
@@ -150,5 +206,13 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    .card-image {
+        min-width: 300px;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 1rem;
     }
 }

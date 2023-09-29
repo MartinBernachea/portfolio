@@ -2,9 +2,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: Verdana ,ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: Verdana, ui-monospace, Menlo, Monaco, "Cascadia Mono",
+    "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+    "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 
 .font-bold {
@@ -39,7 +39,8 @@ a {
 
 /* HEADER  */
 
-nav, .nav-links {
+nav,
+.nav-links {
   display: flex;
 }
 
@@ -68,7 +69,13 @@ nav {
 a:hover {
   cursor: pointer;
 
-  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 250%;
 
@@ -83,7 +90,13 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 
-  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 250%;
 
@@ -178,10 +191,6 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-}
-
 /* PROFILE SECTION */
 
 #profile {
@@ -205,6 +214,7 @@ section {
 .section--text {
   align-self: center;
   text-align: center;
+  /* margin-top: 3rem; */
 }
 
 .section--text p {
@@ -226,7 +236,13 @@ section {
   font-size: 3rem;
   text-align: center;
 
-  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 250%;
 
@@ -273,11 +289,17 @@ section {
 .btn--color-2:hover {
   cursor: pointer;
   transform: scale(1.1);
-  
-  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 250%;
-  
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -285,16 +307,24 @@ section {
 
 /* ABOUT SECTION */
 
+#AboutMe {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px;
+  margin-top: 3rem;
+}
+
 .section--about-container {
   margin: 25px auto;
   text-align: center;
   font-size: 1.25rem;
-  background: rgba(34, 34, 34, .8);
+  background: rgba(34, 34, 34, 0.8);
   border-radius: 15px;
 }
 .section--about-container a {
   margin-bottom: 1rem;
 }
+
 /* SKILLS */
 
 .skills--icon {
@@ -357,12 +387,79 @@ section {
 /* PROJECTS SECTION */
 
 #MyProjects {
-  margin-top: 3.5rem;
-  height: 93vh;
+  margin: auto;
+  margin-top: 8rem;
+  max-width: 1200px;
+  padding: 0 32px;
 }
 
-.projects--card-container {
-  width: 500px;
+.projects--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-image {
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+  max-height: 24rem;
+  background-size: auto;
+}
+
+.project--info-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.project--info-title {
+  font-size: 1.875rem; 
+  font-weight: bold; 
+  text-align: center; 
+  
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 250%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.project--info-p {
+  text-align: left;
+  padding: 1rem;
+}
+
+.button--container {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem; 
+  margin-bottom: 1.25rem;
+}
+
+.project--icons {
+  height: 2.5rem;
+  width: 2.5rem; 
+
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.project--icons:hover {
+  transform: scale(1.25); 
 }
 
 /* CONTACT */
@@ -371,7 +468,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
 }
 
 .contact--info-container {
@@ -403,15 +500,19 @@ section {
 
 /* FOOTER */
 
-footer {
+#Footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
-footer p {
+.footer--div {
   margin-top: 6rem;
   text-align: center;
   font-size: 1.2rem;
+  gap: .8rem;
+}
+.footer--div p {
+  margin: 1rem 0;
 }
 
 .nav--links-container {
@@ -445,11 +546,12 @@ footer p {
   animation: button-bounce 1s ease infinite;
   cursor: pointer;
 
-  background: linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 @keyframes button-bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
