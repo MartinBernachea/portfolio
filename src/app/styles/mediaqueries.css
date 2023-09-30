@@ -57,6 +57,14 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .op-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .op-card-container {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
 }
 
 
@@ -97,6 +105,7 @@
         color: #fff; 
         box-shadow: 0 2px 4px 0 #141719; 
     }
+
     .button--container {
         justify-content: flex-end;
         width: 40%; 
@@ -137,6 +146,14 @@
     
     .skills-card-container {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .op-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .op-card-container {
+        margin: 0 auto;
+        margin-top: 1rem;
     }
 
     .contact--info-container {

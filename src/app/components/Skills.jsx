@@ -70,6 +70,10 @@ const skills = [
                 id: 3,
                 skill: "MySQL",
             },
+            {
+                id: 4,
+                skill: "Sequelize",
+            },
         ],
     },
     {
