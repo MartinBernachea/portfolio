@@ -21,14 +21,14 @@ export default function Projects() {
             proyecto_url_github: "https://github.com/",
             proyecto_url_web: "https://sport-e-commerce.vercel.app/"
         },
-        { // WEATHER APP
-            id: 3,
-            proyecto_title: "Project Title",
-            proyecto_description:
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
-            proyecto_url_github: "https://github.com",
-            proyecto_url_web: "https://google.com",
-        },
+        // { // WEATHER APP
+        //     id: 3,
+        //     proyecto_title: "Project Title",
+        //     proyecto_description:
+        //         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
+        //     proyecto_url_github: "https://github.com",
+        //     proyecto_url_web: "https://google.com",
+        // },
     ]
 
     return (
