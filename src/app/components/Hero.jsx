@@ -20,7 +20,7 @@ export default function Hero() {
             <div className='section--img-container'>
                 <Image 
                     className='section--img'
-                    src="/assets/profile/profile-pic.png" 
+                    src="/assets/profile/martin-pp.jpeg" 
                     alt="profile-pic"
                     width={400}
                     height={400}

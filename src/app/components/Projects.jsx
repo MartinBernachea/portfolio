@@ -5,23 +5,23 @@ import { IconBrandGithub, IconWorld } from '@tabler/icons-react'
 export default function Projects() {
 
     const projectsInfo = [
-        {
+        { // SPORT E-COMMERCE
             id: 1,
-            proyecto_title: "Project Title",
+            proyecto_title: "G&X Sport E-Commerce",
             proyecto_description:
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
-            proyecto_url_github: "https://github.com",
-            proyecto_url_web: "https://google.com",
+                "Sitio web para una empresa que vende ropa deportiva, diseño competitivo, moderno e intuitivo",
+            proyecto_url_github: "https://github.com/MartinBernachea/tp.sitio.e-commerce",
+            proyecto_url_web: "https://sport-e-commerce.vercel.app/"
         },
-        {
+        { // POKEDEX
             id: 2,
-            proyecto_title: "Project Title",
+            proyecto_title: "Pokédex",
             proyecto_description:
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime explicabo iusto voluptas sequi nostrum vero iure officia totam temporibus pariatur, ab, praesentium dolore? Sit cupiditate quos atque odit sapiente.",
-            proyecto_url_github: "https://github.com",
-            proyecto_url_web: "https://google.com",
+                "Pokédex web",
+            proyecto_url_github: "https://github.com/",
+            proyecto_url_web: "https://sport-e-commerce.vercel.app/"
         },
-        {
+        { // WEATHER APP
             id: 3,
             proyecto_title: "Project Title",
             proyecto_description:
