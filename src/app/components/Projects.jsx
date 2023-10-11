@@ -13,14 +13,14 @@ export default function Projects() {
             proyecto_url_github: "https://github.com/MartinBernachea/tp.sitio.e-commerce",
             proyecto_url_web: "https://sport-e-commerce.vercel.app/"
         },
-        { // POKEDEX
-            id: 2,
-            proyecto_title: "Pokédex",
-            proyecto_description:
-                "Pokédex web",
-            proyecto_url_github: "https://github.com/",
-            proyecto_url_web: "https://sport-e-commerce.vercel.app/"
-        },
+        // { // POKEDEX
+        //     id: 2,
+        //     proyecto_title: "Pokédex",
+        //     proyecto_description:
+        //         "Pokédex web",
+        //     proyecto_url_github: "https://github.com/",
+        //     proyecto_url_web: "https://sport-e-commerce.vercel.app/"
+        // },
         // { // WEATHER APP
         //     id: 3,
         //     proyecto_title: "Project Title",
