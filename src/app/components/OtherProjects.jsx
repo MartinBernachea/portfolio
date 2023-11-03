@@ -60,8 +60,8 @@ const othersProjects = [
 export default function OthersProjects() {
     return (
         <section>
-            <h1 className="title">More</h1>
-            <p className="section--text-p1">interesting projects</p>
+            <h1 className="title">Otros</h1>
+            <p className="section--text-p1">proyectos interesantes</p>
             <div className="op-container">
                 {othersProjects.map((project) => (
                     <div

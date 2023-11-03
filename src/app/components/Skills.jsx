@@ -141,7 +141,7 @@ export default function Skills() {
         <section className="section--skills">
             <div className="section--skills-title-container">
                 <p className="section--text-p1">Mis conocimientos</p>
-                <h1 className="title">Skills</h1>
+                <h1 className="title">Habilidades</h1>
             </div>
             <div className="skills-card-container">
                 {skills.map((skill) => (

@@ -9,9 +9,9 @@ export default function Projects() {
             <nav>
                 <div className="nav--links-container">
                     <ul className='footer--nav-links'>
-                        <li><a href='#AboutMe'>About Me</a></li>
-                        <li><a href='#MyProjects'>My Projects</a></li>
-                        <li><a href='#Contact'>Contact</a></li>
+                        <li><a href='#AboutMe'>Sobre Mi</a></li>
+                        <li><a href='#MyProjects'>Mis Projectos</a></li>
+                        <li><a href='#Contact'>Contacto</a></li>
                     </ul>
                 </div>
             </nav>

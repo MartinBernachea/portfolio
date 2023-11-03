@@ -46,9 +46,9 @@ export default function Header() {
                     <a href='/'>{"{ martin }"}</a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href='#AboutMe'>About Me</a></li>
-                    <li><a href='#MyProjects'>My Projects</a></li>
-                    <li><a href='#Contact'>Contact</a></li>
+                    <li><a href='#AboutMe'>Sobre Mi</a></li>
+                    <li><a href='#MyProjects'>Mis Projectos</a></li>
+                    <li><a href='#Contact'>Contacto</a></li>
                 </ul>
             </nav>
             <nav id='hamburger-nav'>

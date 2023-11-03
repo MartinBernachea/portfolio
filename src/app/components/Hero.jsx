@@ -28,7 +28,7 @@ export default function Hero() {
                 />
             </div>
             <div className='section--text'>
-                <p className='section--text-p1'>Hello 👋 ,  I&apos;m</p>
+                <p className='section--text-p1'>Hola 👋 , soy</p>
                 <h1 className='title'>Martin Bernachea</h1>
                 <p className='section--text-p2'>Frontend Developer</p>
                 <div className='btn--container'>
@@ -40,7 +40,8 @@ export default function Hero() {
                     </button>
                     <Link href={'#Contact'}>
                         <button className='btn btn--color-2'>
-                            Contact Me
+                            {/* Contact Me */}
+                            Contactame 
                         </button>
                     </Link>
                 </div>

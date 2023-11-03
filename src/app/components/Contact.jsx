@@ -8,8 +8,8 @@ export default function Contact() {
 
     return (
         <section id='Contact'>
-            <p className="section--text-p1">Get in Touch</p>
-            <h1 className="title">Contact Me</h1>
+            <p className="section--text-p1">Ponte en contacto</p>
+            <h1 className="title">Contáctame</h1>
             <div className="contact--info-container">
                 <div className="contact--info">
                     <IconMailFilled 

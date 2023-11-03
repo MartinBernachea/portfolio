@@ -7,8 +7,8 @@ export default function AboutMe() {
 
     return (
         <section id='AboutMe'>
-            <p className='section--text-p1'>Get to Know More</p>
-            <h1 className='title'>About Me</h1>
+            <p className='section--text-p1'>Conoce Más</p>
+            <h1 className='title'>Sobre Mí</h1>
             <div className='section--about-container'>
                 <p><span className="font-bold">Software Developer,</span> apasionado por el desarrollo Frontend <IconHeartCode width={18} height={18}/></p>
 

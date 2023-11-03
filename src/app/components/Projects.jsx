@@ -33,8 +33,8 @@ export default function Projects() {
 
     return (
         <section id="MyProjects">
-            <p className="section--text-p1">Browse My Recent</p>
-            <h1 className="title">Projects</h1>
+            <p className="section--text-p1">Mis mas recientes</p>
+            <h1 className="title">Proyectos</h1>
             <div className="projects--container">
                 {projectsInfo.map((project) => (
                     <div
