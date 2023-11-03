@@ -12,7 +12,7 @@ import {
 export default function Hero() {
 
     function openResume() {
-        window.open('/assets/resume-example.pdf')
+        window.open('/assets/CV-Bernachea-Martin-Frontend-Developer.pdf')
     }
 
     return (

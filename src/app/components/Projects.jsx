@@ -42,7 +42,7 @@ export default function Projects() {
                         className='projects--card'
                     >
                         <Image
-                            src={`/assets/project/project-${project.id}.png`}
+                            src={`/assets/project/project-${project.id}.jpeg`}
                             alt={project.proyecto_title}
                             className="card-image"
                             priority
