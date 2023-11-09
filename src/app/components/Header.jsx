@@ -62,9 +62,9 @@ export default function Header() {
                         <span></span>
                     </div>
                     <div className='menu-links'>
-                        <li><a onClick={toggleMenu}>About Me</a></li>
-                        <li><a onClick={toggleMenu}>My Projects</a></li>
-                        <li><a onClick={toggleMenu}>Contact</a></li>
+                        <li><a href='#AboutMe'>About Me</a></li>
+                        <li><a href='#MyProjects'>My Projects</a></li>
+                        <li><a href='#Contact'>Contact</a></li>
                     </div>
                 </div>
             </nav>

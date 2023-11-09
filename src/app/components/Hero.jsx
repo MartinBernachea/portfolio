@@ -4,9 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {
     IconBrandGithub,
-    IconBrandLinkedin,
-    IconSend,
-    IconArrowBarToDown
+    IconBrandLinkedin
 } from '@tabler/icons-react'
 
 export default function Hero() {
@@ -36,7 +34,7 @@ export default function Hero() {
                         className='btn btn--color-1'
                         onClick={openResume}
                     >
-                        Download CV
+                        Descargar CV
                     </button>
                     <Link href={'#Contact'}>
                         <button className='btn btn--color-2'>
